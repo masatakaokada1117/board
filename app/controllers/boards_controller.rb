@@ -23,6 +23,8 @@ class BoardsController < ApplicationController
   end
 
   def show
+    @comment = @board.comments.new
+    binding.pry
   end
 
   def edit
@@ -30,7 +32,6 @@ class BoardsController < ApplicationController
 
   def update
     @board.update(board_params)
-    redirect_to board
   end
 
   def destroy
