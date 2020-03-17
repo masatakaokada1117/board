@@ -59,6 +59,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # use pry-byebug
   gem 'pry-byebug'
+
+  gem 'annotate'
 end
 
 group :test do
