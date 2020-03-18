@@ -13,7 +13,7 @@ class User < ApplicationRecord
 
   validates :name,
     presence: true,
-    uniquness: true,
+    uniqueness: true,
     length: { maximum: 16 },
     format: {
       with: /\A[a-z0-9]+\z/,
