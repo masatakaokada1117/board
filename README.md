@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+[参考サイト](https://github.com/kkoji/rails-lecture/tree/master)
